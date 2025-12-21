@@ -14,6 +14,8 @@ usamos cin para entrada ----- cin >> x;           -> ler dados
 */
 
 // endl -> quebra linha
+// sizeof(variavel) -> retorna o tamanho da variável
+// system("pause") -> pausa a execução do programa até o usuário pressionar alguma tecla
 
 int main() {
     cout << "Hello, Word"; 
@@ -22,6 +24,12 @@ int main() {
     cout << "Digite um valor para x: " << endl;
     cin >> x;
     cout << "Valor digitado para x: " << x << endl;
+
+    // Alguns exemplos extras de COUT e CIN
+    int n1 = 10;
+    int n2 = 15;
+    cout << n1 + n2 << endl;
+    cout << "Tamanho da variavel n1: " << sizeof(n1) << endl;
 
     return 0;
 }
