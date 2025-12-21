@@ -73,5 +73,18 @@ int main() {
     cout << "Divisao = " << div << endl;
     cout << "Resto = " << resto << endl;
 
+    // Usando if-else
+    if(n1 > n2) {
+        cout << "A variavel n1 eh maior que n2" << endl;
+        n1 = n2; // igualar as duas variáveis
+    }
+    else if (n1 < n2) {
+        cout << "A variavel n2 eh maior que n2" << endl;
+        n2 = n1;
+    }
+    else if (n1 == n2) {
+        cout << "A variavel n1 e n2 sao iguais" << endl;
+    }
+
     return 0;
 }
