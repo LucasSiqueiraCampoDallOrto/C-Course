@@ -17,6 +17,16 @@ usamos cin para entrada ----- cin >> x;           -> ler dados
 // sizeof(variavel) -> retorna o tamanho da variável
 // system("pause") -> pausa a execução do programa até o usuário pressionar alguma tecla
 
+/*
+
+Modificadores de tipo:
+1. short -> diminui o tamanho da variavel INTEIRA
+2. long -> aumenta o tamanho da variavel INTEIRA
+3. signed -> armazena numeros positivos e negativos
+4. unsigned -> armazena somente numeros positivos
+
+*/
+
 int main() {
     cout << "Hello, Word" << endl; 
 
