@@ -29,12 +29,20 @@ Modificadores de tipo:
 
 /*
 
-Operadores Aritméticos:
+Operadores Aritméticos: 
 1. "+"
 2. "-"
 3. "*"
 4. "/"
 5. "%" -> resto da divisão 
+
+Operadores Relacionais: 
+1. "=="
+2. "!="
+3. ">"
+4. "<"
+5. ">="
+6. "<="
 
 */
 
