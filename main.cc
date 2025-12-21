@@ -18,7 +18,7 @@ usamos cin para entrada ----- cin >> x;           -> ler dados
 // system("pause") -> pausa a execução do programa até o usuário pressionar alguma tecla
 
 int main() {
-    cout << "Hello, Word"; 
+    cout << "Hello, Word" << endl; 
 
     int x;
     cout << "Digite um valor para x: " << endl;

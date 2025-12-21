@@ -1,0 +1,5 @@
+ordem para enviar arquivos ao repositório git
+1. git status
+2. git add .
+3. git commit -m "mensagem do commit"
+4. git push origin main
