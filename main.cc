@@ -44,6 +44,11 @@ Operadores Relacionais:
 5. ">="
 6. "<="
 
+Operadores Lógicos:
+1. && - and
+2. || - or
+3. !  - not
+
 */
 
 int main() {
@@ -84,6 +89,20 @@ int main() {
     }
     else if (n1 == n2) {
         cout << "A variavel n1 e n2 sao iguais" << endl;
+    }
+
+    // Usando operadores lógicos
+    cout << "Digite um numero no intervalo de 45 a 72: " << endl;
+    int i;
+    cin >> i;
+    if(i >= 45 && i <= 72) {
+        cout << "O numero digitado esta no intervalo correto";
+        if(i == 45 || i == 72) {
+            cout << "O numero digitado eh um extremo";
+        }
+    }
+    else {
+        cout << "O numero digitado nao esta no intervalo correto";
     }
 
     return 0;
