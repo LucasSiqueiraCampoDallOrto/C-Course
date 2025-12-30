@@ -57,6 +57,13 @@ Operadores de Atribuição
 
 */
 
+/*
+
+Iteração: repetição de instruções usando estruturas como for, while ou do while.
+Recursão: técnica em que uma função chama a si mesma para resolver um problema.
+
+*/
+
 int main() {
     cout << "Hello, Word" << endl; 
 
