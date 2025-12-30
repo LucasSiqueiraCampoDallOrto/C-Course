@@ -49,6 +49,12 @@ Operadores Lógicos:
 2. || - or
 3. !  - not
 
+Operadores de Atribuição
+1. += | x = x + 10 -> x += 10
+2. -= | x = x - 10 -> x -= 10
+3. *= | x = x * 10 -> x *= 10
+4. /= | x = x / 10 -> x /= 10
+
 */
 
 int main() {
