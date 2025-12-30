@@ -64,6 +64,20 @@ Recursão: técnica em que uma função chama a si mesma para resolver um proble
 
 */
 
+/*
+
+Estrutura de repetição FOR - usamos quando sabemos o quanto queremos percorrer
+
+sintaxe: for(variável; condição; incremento/decremento)
+
+exemplo: 
+
+    for(int i = 0; i <= 10; i++) {
+        cout << i;
+    }
+
+*/
+
 int main() {
     cout << "Hello, Word" << endl; 
 
@@ -116,6 +130,17 @@ int main() {
     }
     else {
         cout << "O numero digitado nao esta no intervalo correto";
+    }
+
+    // Usando FOR
+
+    for(int k = 0; k <= 10; k++) {
+        if(k%2==0) {
+            cout << k << " eh PAR";
+        }
+        else {
+            cout << k << " eh IMPAR";
+        }
     }
 
     return 0;
