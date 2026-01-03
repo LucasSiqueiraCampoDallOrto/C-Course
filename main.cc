@@ -66,7 +66,7 @@ Recursão: técnica em que uma função chama a si mesma para resolver um proble
 
 /*
 
-Estrutura de repetição FOR - usamos quando sabemos o quanto queremos percorrer
+Estrutura de repetição FOR - usamos quando sabemos a quantidade exata que queremos executar
 
 sintaxe: for(variável; condição; incremento/decremento)
 
@@ -75,6 +75,24 @@ exemplo:
     for(int i = 0; i <= 10; i++) {
         cout << i;
     }
+
+*/
+
+/*
+
+Estrutura de repetição WHILE - usamos quando não sabemos a quantidade exata que queremos executar
+
+sintaxe: while(condição) {
+            código;
+        }
+
+exemplo: 
+
+        int i = 0;
+        while(i < 10) {
+            cout << i;
+            i++;
+        }
 
 */
 
@@ -141,6 +159,14 @@ int main() {
         else {
             cout << k << " eh IMPAR";
         }
+    }
+
+    // Usando WHILE 
+
+    int l = 10;
+    while(l >= 10) {
+        cout << l << endl;
+        l--;
     }
 
     return 0;
