@@ -94,6 +94,32 @@ exemplo:
             i++;
         }
 
+
+Estrutura de repetição DO-WHILE - usamos quando não sabemos a quantidade exata que queremos executar
+                                - o bloco de código será executado no mínimo uma vez
+
+sintaxe: do {
+            código;
+        }
+        while(condição);
+
+exemplo: 
+        // Nesse caso vai executar de 1 até 10 e parar
+        int i = 0;
+        do {
+            i++;
+            cout << "O valor da variavel i eh: " << i << endl;
+        }
+        while(i < 10);
+
+        // Nesse caso vai executar apenas o i = 1 e interromper, pois a condição não é válida
+        int i = 0;
+        do {
+            i++;
+            cout << "O valor da variavel i eh: " << i << endl;
+        }
+        while(i > 10);
+
 */
 
 int main() {
@@ -168,6 +194,24 @@ int main() {
         cout << l << endl;
         l--;
     }
+
+    //Usando do-while
+
+    // Nesse caso vai executar de 1 até 10 e parar
+    int w = 0;
+    do {
+        w++;
+        cout << "O valor da variavel i eh: " << w << endl;
+    }
+    while(w < 10);
+
+    // Nesse caso vai executar apenas o i = 1 e interromper, pois a condição não é válida
+    int w = 0;
+    do {
+        w++;
+        cout << "O valor da variavel i eh: " << w << endl;
+    }
+    while(w > 10);
 
     return 0;
 }
