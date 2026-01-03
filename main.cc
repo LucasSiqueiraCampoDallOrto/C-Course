@@ -122,6 +122,31 @@ exemplo:
 
 */
 
+/*
+
+Estrutura SWITCH - usamos para verificar várias condições ao mesmo tempo, sem o uso execessivo de "if"
+
+sintaxe: 
+
+        switch(variável) {
+            case 1: 
+                código;
+                break;
+            case 2: 
+                código;
+                break;
+            case 3: 
+                código;
+                break;
+            .
+            .
+            .
+            default: 
+                código;
+        }
+
+*/
+
 int main() {
     cout << "Hello, Word" << endl; 
 
@@ -213,5 +238,54 @@ int main() {
     }
     while(w > 10);
 
+
+    // Usando estrutura SWITCH
+
+    int mes = 0;
+    cin >> mes;
+    switch(mes) {
+        case 1:
+            cout << "JANEIRO" << endl;
+            break;
+        case 2: 
+            cout << "FEVEREIRO" << endl;
+            break;
+        case 3:
+            cout << "MARÇO" << endl;
+            break;
+        case 4:
+            cout << "ABRIL" << endl;
+            break;
+        case 5: 
+            cout << "MAIO" << endl;
+            break;
+        case 6:
+            cout << "JUNHO" << endl;
+            break;
+         case 7:
+            cout << "JULHO" << endl;
+            break;
+        case 8: 
+            cout << "AGOSTO" << endl;
+            break;
+        case 9:
+            cout << "SETEMBRO" << endl;
+            break;
+        case 10:
+            cout << "OUTUBRO" << endl;
+            break;
+        case 11: 
+            cout << "NOVEMBRO" << endl;
+            break;
+        case 12:
+            cout << "DEZEMBRO" << endl;
+            break;
+        default: 
+            cout << "O valor digitado nao corresponde a um mes do ano";
+    }
+
+
     return 0;
+
+    
 }
