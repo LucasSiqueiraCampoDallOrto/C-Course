@@ -147,6 +147,55 @@ sintaxe:
 
 */
 
+/*
+Ponteiros: variável que armazena o endereço de outra variável.
+
+Sintaxe:
+int *p;
+
+Inicialização:
+int x = 10;
+int *p = &x;  // p recebe o endereço de x
+
+Acessando:
+cout << *p; // imprime o valor armazenado (10)
+cout << p;  // imprime o endereço de x
+
+Modificando valor:
+*p = 20; // agora x vale 20
+
+Ponteiro nulo:
+int *p = nullptr; // não aponta para nada
+
+Passagem por ponteiro:
+void adicionar(int *p) {
+    *p = 50;
+}
+
+Uso:
+int x = 10;
+adicionar(&x); // x passa a valer 50
+
+Passagem por referência:
+void adicionar(int &x) {
+    x = 50;
+}
+// x é alterado diretamente (referência é um apelido da variável)
+
+Ponteiros e vetores:
+int v[3] = {1,2,3};
+int *p = v; // equivale a &v[0]
+
+Alocação dinâmica:
+int *p = new int;
+delete p;
+
+Alocação dinâmica de vetor:
+int *v = new int[tamanho];
+delete[] v;
+
+*/
+
 int main() {
     cout << "Hello, Word" << endl; 
 
